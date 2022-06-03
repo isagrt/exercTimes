@@ -1,10 +1,11 @@
 <script setup>
 import HeaderComp from "@/components/template/HeaderComp.vue";
+import FooterComp from "@/components/template/FooterComp.vue";
 </script>
 <template>
   <HeaderComp />
   <RouterView />
-  <footer>Rodapé</footer>
+  <FooterComp />
 </template>
 
 <style>
@@ -21,7 +22,6 @@ a {
   text-decoration: none;
 }
 
-header,
 footer {
   background-color: rgb(188, 131, 226);
   height: 15%;
@@ -35,9 +35,5 @@ footer {
 
 main {
   min-height: 70%;
-}
-
-header span {
-  padding: 0 10px;
 }
 </style>
