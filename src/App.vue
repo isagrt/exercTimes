@@ -5,11 +5,12 @@
       <span>|</span>
       <span><RouterLink to="/jogadores">Jogadores</RouterLink></span>
       <span>|</span>
-      <span><RouterLink to="/times">times</RouterLink></span>
+      <span><RouterLink to="/times">Times</RouterLink></span>
     </div>
     <div class="menu-direito"><span>sair</span></div>
   </header>
   <RouterView />
+  <footer>Rodapé</footer>
 </template>
 
 <style>
@@ -21,7 +22,7 @@
   font-weight: normal;
   height: 100vh;
 }
-a{
+a {
   color: inherit;
   text-decoration: none;
 }
