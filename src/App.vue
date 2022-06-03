@@ -28,7 +28,7 @@ a{
 
 header,
 footer {
-  background-color: cornflowerblue;
+  background-color: rgb(188, 131, 226);
   height: 15%;
   font-size: 1.3rem;
   color: white;
