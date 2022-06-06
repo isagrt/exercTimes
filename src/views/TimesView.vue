@@ -69,7 +69,6 @@ table tr th {
 table tr td {
   border: 1px solid #ccc;
   padding: 10px;
-
 }
 
 .form-input {
@@ -90,9 +89,9 @@ table tr td {
   margin-left: 1%;
   width: 15%;
   height: 40px;
-  border: 1px solid rgb(188, 131, 226);;
+  border: 1px solid rgb(188, 131, 226);
   border-radius: 10px;
-  background-color: rgb(188, 131, 226);;
+  background-color: rgb(188, 131, 226);
   color: white;
   font-weight: bold;
   cursor: pointer;
