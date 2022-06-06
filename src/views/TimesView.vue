@@ -71,6 +71,10 @@ table tr td {
   padding: 10px;
 }
 
+table tr:nth-child(even) {
+  background-color: #ccc;
+}
+
 .form-input {
   margin-top: 10px;
   display: flex;
