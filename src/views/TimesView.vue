@@ -49,6 +49,28 @@
   display: flex;
   justify-content: center;
 }
+.list-times {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 50%;
+  margin: 2% auto;
+  border-collapse: collapse;
+}
+
+table tr th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-weight: bold;
+}
+
+table tr td {
+  border: 1px solid #ccc;
+  padding: 10px;
+
+}
 
 .form-input {
   margin-top: 10px;
@@ -68,9 +90,9 @@
   margin-left: 1%;
   width: 15%;
   height: 40px;
-  border: 1px solid darkgray;
+  border: 1px solid rgb(188, 131, 226);;
   border-radius: 10px;
-  background-color: darkgray;
+  background-color: rgb(188, 131, 226);;
   color: white;
   font-weight: bold;
   cursor: pointer;
